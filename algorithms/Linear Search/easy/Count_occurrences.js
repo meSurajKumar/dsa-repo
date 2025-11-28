@@ -53,3 +53,4 @@ const arrayData = [12,11,12,23,24,14,56,78,79,66,78];
 // console.log(count)
 // but with the filter this is slightly slower because it's create new array.
 
+                                                                                                                                      
