@@ -38,7 +38,7 @@
 // for of loop :- To count the occurance of element.
 
 const arrayData = [12,11,12,23,24,14,56,78,79,66,78];
-let count =0
+// let count =0
 const occuranceFinder = (arrData , target)=>{
     for(item of arrayData){
         if(item === target) count++ 
@@ -48,9 +48,9 @@ const occuranceFinder = (arrData , target)=>{
 occuranceFinder(arrayData , 78);
 console.log(count)
 
-with filter.
+// with filter.
 const count = arrayData.filter((x)=> x==78).length
 console.log(count)
-but with the filter this is slightly slower because it's create new array.
+// but with the filter this is slightly slower because it's create new array.
 
                                                                                                                                       
